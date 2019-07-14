@@ -7,11 +7,11 @@ A 10x shit post generator
 
 Options:
 
-  -V, --version         output the version number
+  `-V, --version`          output the version number
   
-  -s, --sarcasm <type>  Set the level of sarcasm (default: 0) currently supports, 0 & 1
+  `-s, --sarcasm <level>`  Set the level of sarcasm (default: 0) currently supports, 0 & 1
   
-  -h, --help            output usage information
+  `-h, --help`             output usage information
 
 Examples:
 ```
