@@ -1,6 +1,6 @@
 {
   "name": "10xgen",
-  "version": "0.1.1",
+  "version": "0.0.1",
   "description": "A 10x shit post generator written by a 0.9x engineer",
   "main": "bin/10xgen.js",
   "bin": {
@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "npm test && git push && git push --tags && npm publish",
+    "release": "git push && git push --tags && npm publish",
     "release:patch": "npm version patch -a -m \"Update to %s\" && npm run release",
     "release:minor": "npm version minor -a -m \"Update to %s\" && npm run release",
     "release:major": "npm version major -a -m \"Update to %s\" && npm run release"
