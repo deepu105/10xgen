@@ -1,0 +1,26 @@
+{
+  "name": "10xgen",
+  "version": "0.1.0",
+  "description": "A 10x shit post generator written by a 0.9x engineer",
+  "main": "index.js",
+  "bin": {
+    "10xgen": "bin/10xgen.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepu105/10xgen.git"
+  },
+  "keywords": [
+    "10xEngineer",
+    "10xDeveloper"
+  ],
+  "author": "Deepu KS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deepu105/10xgen/issues"
+  },
+  "homepage": "https://github.com/deepu105/10xgen#readme"
+}
