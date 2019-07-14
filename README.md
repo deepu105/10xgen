@@ -6,8 +6,11 @@ Usage: `10xgen <a noun> [a verb] [options]`
 A 10x shit post generator
 
 Options:
+
   -V, --version         output the version number
-  -s, --sarcasm <type>  Set the level of sarcasm (default: 0)
+  
+  -s, --sarcasm <type>  Set the level of sarcasm (default: 0) currently supports, 0 & 1
+  
   -h, --help            output usage information
 
 Examples:
@@ -16,4 +19,6 @@ Examples:
   $ 10xgen Engineer code
   $ 10xgen Devloper code
   $ 10xgen Cat sleep -s 1
-  ```
+```
+
+A very simple find and replace utility with predefined templates for 2 sarcasm levels
