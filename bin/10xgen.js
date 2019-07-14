@@ -7,7 +7,7 @@ program
   .version('0.0.1')
   .description('A 10x shit post generator')
   .usage('<a noun> [a verb] [options]')
-  .option('-s, --sarcasm <type>', 'Set the level of sarcasm', 0);
+  .option('-s, --sarcasm <level>', 'Set the level of sarcasm, currently, either 0 or 1', 0);
 
 program.on('--help', function() {
   console.log('');
